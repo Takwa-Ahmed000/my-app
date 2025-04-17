@@ -37,10 +37,17 @@ const Navbar = () => {
               <a className="nav-link text-dark" href="#core-feature">الخصائص الأساسية</a>
             </li>
             <li className="nav-item px-2">
-              <a className="nav-link text-dark" href="#documentation">الوثائق</a>
+              <a
+                className="nav-link text-dark"
+                href="doc.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                الوثائق
+              </a>
             </li>
             <li className="nav-item px-2">
-              <a className="nav-link text-dark" href="#hire-us">احجز الان</a>
+              <a className="nav-link text-dark" href="#hire-us">احجز الآن</a>
             </li>
           </ul>
 
@@ -53,3 +60,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import HeroSection from './HeroSection';
 import ScreenshotSection from './ScreenshotSection';
 import CoreFeatureSection from './CoreFeatureSection';
-import FeaturesSection from './FeaturesSection';
+//import FeaturesSection from './FeaturesSection';
 import Footer from './Footer';
 
 function App() {
@@ -51,18 +51,13 @@ function App() {
 
       {/* ✅ Core Feature Section */}
       <CoreFeatureSection />
-    
-
-      {/* ✅ Documentation Section */}
-      <section id="documentation" style={{ padding: '100px 0', backgroundColor: '#f9f9f9' }}>
-        <h2 className="text-center">documentation</h2>
-      </section>
 
       {/* ✅ Hire Us Section */}
       <section id="hire-us" style={{ padding: '100px 0' }}>
-        
-        
+        {/* محتوى الحجز هيضاف هنا لاحقًا */}
       </section>
+
+      {/* ✅ Footer */}
       <Footer />
     </div>
   );
